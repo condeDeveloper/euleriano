@@ -1,0 +1,15 @@
+{
+  "name": "euleriano",
+  "version": "1.0.0",
+  "description": "Circuitos eulerianos contados por enumeracao e pelo teorema BEST em Node puro, sem dependencia nenhuma.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test testes/*.test.js",
+    "medir": "node ferramentas/medidor.js"
+  },
+  "license": "MIT",
+  "private": false
+}
